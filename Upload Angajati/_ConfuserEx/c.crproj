@@ -1,0 +1,24 @@
+<project outputDir="C:\Users\Work\Desktop\Working on now\Upload Angajati v5.0 - Final - Cod sursa (lucrez pe el)\Upload Angajati\obj\Release" baseDir="C:\Users\Work\Desktop\Working on now\Upload Angajati v5.0 - Final - Cod sursa (lucrez pe el)\Upload Angajati\obj\Release" xmlns="http://confuser.codeplex.com">
+<rule pattern="true" />
+<module path="Upload Angajati.exe">
+<rule pattern="true">
+<protection id="anti ildasm" />
+<protection id="anti tamper" />
+<protection id="constants" />
+<protection id="ctrl flow" />
+<protection id="anti dump" />
+<protection id="anti debug" />
+<protection id="invalid metadata" />
+<protection id="ref proxy" />
+<protection id = "rename" >
+<argument name = "mode" value = "decodable" />
+<argument name = "renPublic" value = "false" />
+<argument name = "renEnum" value = "false" />
+<argument name = "renameArgs" value = "false" />
+</protection >
+</rule>
+</module>
+<probePath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.22\Assemblies\v4.5.2</probePath>
+<probePath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2</probePath>
+<probePath>..\..\bin\Debug</probePath>
+</project>
